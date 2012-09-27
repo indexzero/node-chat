@@ -1,7 +1,7 @@
 {
   "description": "A simple chat application",
   "version": "0.0.2",
-  "author": "General Assembly <info@generalassemb.ly>",
+  "author": "Nodejitsu <info@nodejitsu.com>",
   "dependencies": {
     "socket.io": "*",
     "node-static": "*",
@@ -9,11 +9,11 @@
     "uglify-js": "*"
   },
   "engines": {
-    "node": "*"
+    "node": "0.8.x"
   },
-  "subdomain": "xyz",
+  "subdomain": "test-hackny",
   "scripts": {
-    "start": "/server/server.js"
+    "start": "server/server.js"
   },
-  "name": "test7"
+  "name": "hackny-chat"
 }
